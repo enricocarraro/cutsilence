@@ -133,13 +133,15 @@ function App() {
               )}
             </Row>
           ) : (
-            <Spinner />
+            <Spinner animation="border" role="status">
+              <span className="sr-only">Loading...</span>
+            </Spinner>
           )}
         </Col>
       </Row>
       <br />
       <hr />
-      <br />    
+      <br />
       <Row className="justify-content-center">
         <a href="https://github.com/enricocarraro/cutsilence">Source Code</a>
       </Row>
