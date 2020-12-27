@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
 import { Button, Container, Row, Col, Spinner, Form } from 'react-bootstrap';
+import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
+
 const ffmpeg = createFFmpeg({ log: true });
 
 function App() {
@@ -135,6 +136,12 @@ function App() {
             <Spinner />
           )}
         </Col>
+      </Row>
+      <br />
+      <hr />
+      <br />    
+      <Row className="justify-content-center">
+        <a href="https://github.com/enricocarraro/cutsilence">Source Code</a>
       </Row>
     </Container>
   );
