@@ -9,7 +9,10 @@
   "dependencies": {
     "@ffmpeg/core": "^0.8.5",
     "@ffmpeg/ffmpeg": "^0.9.6",
+    "@snowpack/plugin-webpack": "^2.2.0",
+    "bootstrap": "^4.5.3",
     "react": "^17.0.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
